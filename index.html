@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Накликай себе печенья</title>
+    <link rel="icon" href="assets/icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Куки-кликер</h1>
+
+        <div id="cookieContainer">
+            <img src="assets/cookie.png" alt="печенька" id="cookie">
+        </div>
+        <h2 id="result">0</h2>
+
+        <div class="list-group">
+            <button type="button" class="list-group-item list-group-item-action disabled" id="a">Печенька
+                <div class="price">0 кликов</div><div class="upd">+1 клик</div></button>
+            <button type="button" class="list-group-item list-group-item-action" id="b">Кавайная печенька
+                <div class="price">50 кликов</div><div class="upd">+2 клика</div></button>
+            <button type="button" class="list-group-item list-group-item-action" id="c">Разноцветная печенька
+                <div class="price">100 кликов</div><div class="upd">+5 кликов</div></button>
+            <button type="button" class="list-group-item list-group-item-action" id="d">Рождественская печенька
+                <div class="price">500 кликов</div><div class="upd">+10 кликов</div></button>
+        </div>
+
+        <div id="error" class="error"></div>
+        
+    </div>
+</body>
+
+</html>
